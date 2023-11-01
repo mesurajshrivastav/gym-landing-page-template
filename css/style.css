@@ -1,0 +1,96 @@
+* {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 34px;
+  /* border: 2px solid red; */
+}
+.left img {
+  width: 100px;
+  filter: invert(100%);
+}
+.left a {
+  text-decoration: none;
+}
+.mid {
+  display: inline-block;
+  /* border: 2px solid blue; */
+  width: 572px;
+  position: absolute;
+  top: 7px;
+  left: 522px;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 34px;
+  /* border: 2px solid yellow; */
+}
+
+.navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 22px;
+  padding: 8px;
+}
+
+.navbar li a:hover,
+.active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  background-color: grey;
+  padding: 0 10px;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkgrey;
+}
+
+.landingForm {
+  position: absolute;
+  top: 205px;
+  left: 300px;
+}
+
+.landingForm label {
+  display: block;
+  font-size: 20px;
+}
+.landingForm input {
+  padding: 5px 30px 5px 10px;
+  color: black;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.formbtn {
+  background-color: grey;
+  padding: 5px 12px 5px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
